@@ -1,19 +1,15 @@
-import org.testng.annotations.Test;
-import org.antlr.runtime.*;
+package net.nextquestion.antlr3.csv;
 
-import java.io.*;
+import org.antlr.runtime.*;
+import org.junit.Test;
+
+import java.io.IOException;
 import java.util.List;
 
-import com.sun.java_cup.internal.parser;
+import net.nextquestion.antlr3.csv.CSVParser;
+import net.nextquestion.antlr3.csv.CSVLexer;
 
-/**
- * Created by IntelliJ IDEA.
- * User: rdclark
- * Date: May 26, 2007
- * Time: 4:39:52 PM
- * To change this template use File | Settings | File Templates.
- */
-public class CSVTests {
+public class CSVTest {
 
 
     @Test

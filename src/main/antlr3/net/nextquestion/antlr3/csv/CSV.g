@@ -1,6 +1,15 @@
 grammar CSV;
 
+@header {
+package net.nextquestion.antlr3.csv;
+}
+
+@lexer::header {
+package net.nextquestion.antlr3.csv;
+}
+
 @lexer::members {
+
 List<RecognitionException> exceptions = new ArrayList<RecognitionException>();
 
 public List<RecognitionException> getExceptions() {

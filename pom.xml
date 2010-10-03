@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.nextquestion.antlr3.csv</groupId>
-    <artifactId>csv_parser</artifactId>
+    <artifactId>csv</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 

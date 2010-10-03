@@ -1,7 +1,9 @@
 .DS_Store
-classes
+target
 test-output
-CSV Parser.i*
-lib
-grammar/CSV.tokens
+# Ignore .idea files
+.idea
+csv.i??
+# Ignore Mac OS-specific files
+.DS_Store
 

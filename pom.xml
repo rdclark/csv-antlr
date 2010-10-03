@@ -7,8 +7,8 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>csv_parser</name>
-    <url>http://maven.apache.org</url>
+    <name>csv</name>
+    <url>http://github.com/rdclark/csv-antlr</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
